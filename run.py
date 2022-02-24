@@ -51,6 +51,7 @@ class RevGen:
             self.gennumb = input("How many cards do you want to generate? > ")
             print("Running Gen Mode")
         elif self.mode == "2":
+            self.gennumb = input("Where do you want to start? (use 0) > ")
             print("Running Detail Mode")
         else:
             print("Invalid.")
@@ -134,7 +135,7 @@ class RevGen:
                         self.get_card_details(self.card_id)
         
         elif self.mode == "2":
-            for n in range(0, len(self.json)):
+            for n in range(int(self.gennumb), len(self.json)):
             # only get card details. NO CARD GEN!
                 self.cardnumb = n
                 if self.smsverification:
@@ -314,7 +315,7 @@ class RevGen:
                 self.get_newcookie()
                 time.sleep(5)
 
-        print('f SMS code sent')
+        print('SMS code sent')
 
 
     def get_card_details(self,x):
