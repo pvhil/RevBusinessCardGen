@@ -10,6 +10,7 @@ Before you begin, ensure you have met the following requirements:
 
 ## QuickStart
   
+  - Download Chromedriver and put it in the same folder
   - Install packages with `pip install -r requirements.txt`
   - Start `py run.py`
   - Log in inside the console!
