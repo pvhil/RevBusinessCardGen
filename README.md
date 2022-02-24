@@ -20,6 +20,7 @@ Before you begin, ensure you have met the following requirements:
 - Replace time.sleep with webdriver.wait
 - Headless some day
 - Clean code
+- Create releases
 - If everything done make a pr to main branch
 
 ## Troubleshooting
