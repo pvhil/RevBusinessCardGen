@@ -60,6 +60,7 @@ class RevGen:
         self.email = input("Revolut Email: ")
         self.password = input("Revolut Password: ")
         print("Running...")
+        
 
 
 
