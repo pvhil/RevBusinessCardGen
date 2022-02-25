@@ -5,3 +5,4 @@ chromedriver.exe
 chromedriver.exe~
 test.py
 config.py
+release.zip
